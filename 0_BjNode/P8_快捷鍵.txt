@@ -1,0 +1,23 @@
+﻿在console視窗上按滑鼠右鍵 選單跳出後按R即可
+F2: 重命名(檔案)
+F11: Debug運行
+ctrl + F11: Normal運行
+
+alt + shift + s: getter setter
+alt + shift + r: 重命名(變量與方法)
+alt + shift + m: 抽取為方法
+alt + shift + l: 產生變數
+alt + shift + z: 處理區塊程式碼
+
+ctrl + shift + o: 導入類
+ctrl + shift + t: 查看類
+ctrl + shift + f: 格式化程式碼
+
+ctrl + 1: 解決方案
+ctrl + t: 查看類的繼承關係
+ctrl + o: 查看類的方法
+ctrl + 點擊: 查看源碼
+
+alt + /: 自動提示
+alt + left: 上一洞
+alt + right: 下一洞

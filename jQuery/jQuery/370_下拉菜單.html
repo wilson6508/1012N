@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/jquery.min.js"></script>
+    <style>
+    </style>
+</head>
+<body>
+    <ul class="nav">
+        <li>
+            <a href="#">Test</a>
+            <ul>
+                <li><a href="">aaa</a></li>
+                <li><a href="">bbb</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Demo</a>
+            <ul>
+                <li><a href="">ccc</a></li>
+                <li><a href="">ddd</a></li>
+            </ul>
+        </li>        
+    </ul>
+    <script>
+        $(function() {
+            $(".nav > li").mouseover(function() {
+                $(this).children("ul").show();
+            });
+            $(".nav > li").mouseout(function() {
+                $(this).children("ul").hide();
+            });            
+        })
+    </script>
+</body>        
+</html>

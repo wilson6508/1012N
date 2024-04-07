@@ -1,0 +1,16 @@
+﻿ctrl + n 建專案
+ctrl + n 輸入html
+ctrl + n 輸入folder
+
+ctrl + z: 復原
+ctrl + y: 取消復原
+ctrl + m: 視窗最大化
+ctrl + e: 選擇頁籤
+
+alt + up: 移動該行
+alt + 帶下滑線字母: 進入輸入框
+alt + enter: 查看屬性
+
+page + up: 切換頁籤
+shift + enter: 插入空行
+ctrl + alt + up: 向上複製

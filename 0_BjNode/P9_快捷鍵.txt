@@ -1,0 +1,10 @@
+﻿輸出參數: 選中參數 -> alt + / -> 向上
+
+Convert local variable to field
+Split variable declaration
+選中參數 -> ctrl + 1
+
+Did you eat the pie in the fridge?
+A piece
+Where did the other pieces go?
+I didn't cut it ... It was one piece ...

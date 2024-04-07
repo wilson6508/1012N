@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/jquery.min.js"></script>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <script>
+        // 用原生js獲取的對象 就是DOM對象
+        // DOM對象只能使用原生JS屬性與方法
+        var myDiv = document.querySelector('div');
+        console.dir(myDiv);
+        // myDiv.style.display = 'none';
+
+        // jQuery對象: 利用$對DOM對象包裝(偽數組)
+        // jQuery對象只能使用jQuery方法
+        console.dir($('div'));
+        // $('div').hide();
+    </script>
+</body>
+</html>

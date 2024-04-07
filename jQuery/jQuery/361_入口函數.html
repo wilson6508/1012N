@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/jquery.min.js"></script>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        // $('div').hide();
+
+        // 1. 等著頁面DOM加載完畢 再去執行js代碼
+        // $(document).ready(function() {
+        //     $('div').hide();
+        // })
+
+        // 2. 等著頁面DOM加載完畢 再去執行js代碼
+        $(function() {
+            $('div').hide();
+        })
+    </script>
+    <div></div>
+</body>
+</html>

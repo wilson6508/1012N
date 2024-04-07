@@ -1,0 +1,15 @@
+打包
+d:
+cd workspace
+cd apache-tomcat-9.0.71
+cd webapps
+cd myweb
+jar cvf d:\workspace\myweb2.war .
+
+運行
+d:
+cd workspace
+cd apache-tomcat-9.0.71
+cd bin
+startup.bat
+shutdown.bat

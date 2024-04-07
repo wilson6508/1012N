@@ -1,0 +1,4 @@
+D:\Ecli\.metadata\.plugins\org.eclipse.wst.server.core\servers.xml
+D:\Ecli\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps
+
+打包: 右鍵 export 選路徑
