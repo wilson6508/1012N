@@ -1,5 +1,6 @@
 ﻿在console視窗上按滑鼠右鍵 選單跳出後按R即可
 F2: 重命名(檔案)
+F3: 進入類 進入方法
 F11: Debug運行
 ctrl + F11: Normal運行
 
@@ -16,6 +17,7 @@ ctrl + shift + f: 格式化程式碼
 ctrl + 1: 解決方案
 ctrl + t: 查看類的繼承關係
 ctrl + o: 查看類的方法
+ctrl + t: 查看實現類
 ctrl + 點擊: 查看源碼
 
 alt + /: 自動提示

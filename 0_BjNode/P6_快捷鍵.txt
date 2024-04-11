@@ -6,6 +6,8 @@ ctrl + z: 復原
 ctrl + y: 取消復原
 ctrl + m: 視窗最大化
 ctrl + e: 選擇頁籤
+ctrl + shift + /(數字鍵): 摺疊程式碼
+ctrl + shift + *(數字鍵): 展開程式碼
 
 alt + up: 移動該行
 alt + 帶下滑線字母: 進入輸入框
