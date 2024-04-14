@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-TW" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>標題</title>
+    <link rel="stylesheet" th:href="@{app.css}">
+    <style>
+        .active {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="app"></div>
+
+    <h2 th:text="${user.getUsername()}"></h2>
+    <h2 th:text="${user.username}"></h2>
+
+    <div th:object="${user}">
+        <p th:text="*{username}"></p>
+        <p th:text="*{age}"></p>
+        <p th:text="*{#dates.format(createTime, 'yyyy/MM/dd HH:mm:ss')}"></p>
+    </div>
+
+    <p th:if="${user.isVip}">會員true</p>
+    <p th:if="${!user.isVip}">會員false</p>
+
+    <ul>
+        <li th:each="tag:${user.tags}" th:text="${tag}"></li>
+    </ul>
+    <ul>
+        <li th:each="tag,idx:${user.tags}" th:text="${tag}" th:classappend="${idx.last} ? 'active'"></li>
+    </ul>
+
+    <div th:switch="${user.sex}">
+        <p th:case="1">男</p>
+        <p th:case="2">女</p>
+        <p th:case="*">默認</p>
+    </div>
+
+    <div th:replace="component::com3"></div>
+
+</body>
+<script th:inline="javascript">
+    const user = /*[[${user}]]*/{};
+    console.log(user);
+</script>
+</html>

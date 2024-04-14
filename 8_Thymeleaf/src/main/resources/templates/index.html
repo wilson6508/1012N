@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-TW" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <!-- <title th:text="'前端加的_' + ${title}">默認的標題</title>-->
+    <title th:text="|FFF的_${title}|">默認的標題</title>
+    <meta th:content="${description}" name="description" content="默認的description">
+    <meta th:content="${keywords}" name="keywords" content="默認的keywords">
+</head>
+<body>
+    <div th:replace="component::com1"></div>
+    <div th:replace="~{component::com1}"></div>
+    <div th:insert="~{component::com1}"></div>
+    <div th:insert="~{component::#com2}"></div>
+    <div th:replace="~{component::com4('中文Eng')}"></div>
+    <div th:replace="~{component::com5(~{::#message})}">
+        <p id="message">替換的模塊</p>
+    </div>
+</body>
+</html>

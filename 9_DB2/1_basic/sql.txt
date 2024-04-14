@@ -1,0 +1,16 @@
+select * from employee fetch first 10 rows only
+select firstname, salary from employee
+
+select distinct sex, job from employee
+select firstname, salary + comm As pay from employee
+
+select name from employee where name like 'K%'
+select lastname from employee where lastname in (select sales_person from sales)
+
+select e.firstname from employee e where e.salary < (select avg(s.salary) from employee s)
+
+win + r
+services.msc
+
+db2
+connect to sample
