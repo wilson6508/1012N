@@ -12,6 +12,8 @@ alt + shift + z: 處理區塊程式碼
 
 ctrl + shift + o: 導入類
 ctrl + shift + t: 查看類
+ctrl + shift + g: 查看方法被誰引用
+ctrl + alt   + h: 查看方法被誰引用
 ctrl + shift + f: 格式化程式碼
 
 ctrl + 1: 解決方案
